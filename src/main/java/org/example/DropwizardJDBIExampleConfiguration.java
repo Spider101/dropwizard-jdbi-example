@@ -6,7 +6,7 @@ import io.dropwizard.Configuration;
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 
-public class DropwizardTemplateConfiguration extends Configuration {
+public class DropwizardJDBIExampleConfiguration extends Configuration {
     @Valid
     @NotNull
     @JsonProperty

@@ -1,13 +1,12 @@
-# Dropwizard Template
+# Dropwizard JDBI Example
 
-This is a starter template to build dropwizard projects from.
-Make sure to replace all instances of the `dropwizard-template` nomenclature with the name of the new application.
+This is a sample project to see how to work with dropwizard and jdbi with an H2 engine.
 
-How to start the Dropwizard Template application
+How to start the Dropwizard JDBI Example application
 ---
 
 1. Run `mvn clean install` to build your application
-1. Start application with `java -jar target/dropwizard-template-1.0-SNAPSHOT.jar server dev.yml`
+1. Start application with `java -jar target/dropwizard-jdbi-example-1.0-SNAPSHOT.jar server dev.yml`
 1. To check that your application is running enter url `http://localhost:8080`
 
 Health Check

@@ -5,14 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>dropwizard-template</artifactId>
+    <artifactId>dropwizard-jdbi-example</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <dropwizard.version>2.0.20</dropwizard.version>
-        <mainClass>com.footballstatsdashboard.FootballDashboardApplication</mainClass>
+        <mainClass>org.example.DropwizardJDBIExampleApplication</mainClass>
     </properties>
 
     <dependencyManagement>
