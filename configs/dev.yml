@@ -1,0 +1,6 @@
+appId: "1234"
+
+logging:
+  level: INFO
+  loggers:
+    org.example: DEBUG
