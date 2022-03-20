@@ -1,5 +1,19 @@
 appId: "1234"
 
+database:
+  driverClass: org.h2.Driver
+  user: sa
+  url: "jdbc:h2:mem:test"
+  properties:
+    charSet: UTF-8
+    maxWaitForConnection: 1s
+    validationQuery: "/* MyService Health Check */ SELECT 1"
+    minSize: 8
+    maxSize: 32
+    checkConnectionWhileIdle: false
+    evictionInterval: 10s
+    minIdleTime: 1 minute
+
 logging:
   level: INFO
   loggers:
